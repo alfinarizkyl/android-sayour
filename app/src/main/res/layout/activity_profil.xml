@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".profil">
+    tools:context=".ui.profil">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageViewProfil"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginStart="16dp"
@@ -23,7 +23,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
         android:text="Nama Penjual"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/imageViewProfil"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -33,6 +33,6 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="68dp"
         android:text="1234567890"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/imageViewProfil"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

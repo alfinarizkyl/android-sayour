@@ -10,13 +10,18 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:usesCleartextTraffic="true"
-        android:theme="@style/Theme.Sayour">
-        <activity android:name=".profil"></activity>
-        <activity android:name=".artikel" />
-        <activity android:name=".detail" />
-        <activity android:name=".Katalog" />
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.Sayour"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ui.artikel.DetailArtikel"></activity>
+        <activity android:name=".ui.Profil">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.katalog.DetailKatalog" />
+        </activity>
+        <activity android:name=".ui.artikel.Artikel" />
+        <activity android:name=".ui.katalog.DetailKatalog" />
+        <activity android:name=".ui.katalog.Katalog" />
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,7 +1,9 @@
 package id.myeco.sayour.model
 
+import android.os.Parcelable
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.Parcelize
 
 class KatalogResponse {
     @SerializedName("status")
@@ -25,6 +27,7 @@ class KatalogResponse {
         return list
     }
 
+    @Parcelize
     data class KatalogModel(
         val id:Int,
         val idKontak:Int,
@@ -32,6 +35,10 @@ class KatalogResponse {
         val foto:String,
         val harga:Int,
         val deskripsi:String,
-        val satuan:String
-    )
+        val satuan:String,
+        val nama_penjual:String,
+        val alamat:String,
+        val no_wa:String,
+        val foto_profil:String
+    ): Parcelable
 }

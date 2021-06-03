@@ -3,4 +3,7 @@
     <string name="keterangan">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suspendisse nullam duis eget faucibus. Maecenas ac pellentesque maecenas lacus nullam et tellus dignissim in. </string>
     <string name="time">1 jam yang lalu</string>
     <string name="textdeskripsi">Text_Deskripsi</string>
+    <string name="profil_toko">PROFIL TOKO</string>
+    <string name="kirim_pesan">KIRIM PESAN</string>
+    <string name="image">image</string>
 </resources>
