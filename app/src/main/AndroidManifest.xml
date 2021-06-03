@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.Sayour">
-        <activity android:name=".artikel"></activity>
+        <activity android:name=".profil"></activity>
+        <activity android:name=".artikel" />
         <activity android:name=".detail" />
         <activity android:name=".Katalog" />
         <activity android:name=".MainActivity">
